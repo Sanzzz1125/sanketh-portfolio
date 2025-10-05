@@ -33,9 +33,8 @@ const Navigation = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#home" className="flex items-center gap-3">
-            <img src={logo} alt="ST Logo" className="h-10 w-10 rounded-lg" />
-            <span className="text-xl font-bold gradient-text">Sanketh T.</span>
+          <a href="#home" className="flex items-center gap-2">
+            <span className="text-2xl font-bold text-foreground">ST</span>
           </a>
 
           {/* Desktop Navigation */}
