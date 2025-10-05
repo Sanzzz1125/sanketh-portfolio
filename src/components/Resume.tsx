@@ -23,8 +23,8 @@ const Resume = () => {
           </p>
 
           <a
-            href="/resume.png"
-            download="Sanketh_Thatikonda_Resume.png"
+            href="/Sanketh Thatikonda-Resume.pdf"
+            download="Sanketh_Thatikonda_Resume.pdf"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium text-lg transition-all duration-300"
             style={{
               background: "var(--gradient-primary)",
@@ -37,7 +37,7 @@ const Resume = () => {
           </a>
 
           <p className="text-sm text-muted-foreground mt-4">
-            PNG Format • Last Updated: 2025
+            PDF Format • Last Updated: 2025
           </p>
         </div>
       </div>
