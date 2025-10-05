@@ -7,8 +7,8 @@ const Projects = () => {
       description:
         "A comprehensive platform providing career information and guidance to rural students (govt. students). Features stream selection, entrance exam details, and institutional information for 12th graders.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/Sanzzz1125/Career-Options",
+      live: "https://sanzzz1125.github.io/Career-Options/",
     },
     {
       title: "Shoe Mart Billing System",
@@ -23,8 +23,7 @@ const Projects = () => {
       description:
         "Collection of small-scale applications including Tic-Tac-Toe game, food delivery landing page, survey form, and college portal shortcut. Enhanced UI/UX and responsive design skills.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/Sanzzz1125?tab=repositories",
     },
   ];
 
