@@ -42,42 +42,44 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-card rounded-2xl p-6 hover-lift"
-              style={{ boxShadow: "var(--shadow-elegant)" }}
+              className="bg-card rounded-3xl p-8 hover-lift border border-border/50 backdrop-blur-sm relative overflow-hidden group"
+              style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <h3 className="text-xl font-bold mb-3">{project.title}</h3>
-              <p className="text-muted-foreground mb-4 leading-relaxed">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 rounded-full -translate-y-1/2 translate-x-1/2" style={{ background: "var(--gradient-primary)" }}></div>
+              
+              <h3 className="text-2xl font-bold mb-4 relative z-10">{project.title}</h3>
+              <p className="text-muted-foreground mb-6 leading-relaxed text-base relative z-10">
                 {project.description}
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2 mb-6 relative z-10">
                 {project.tech.map((tech, i) => (
                   <span
                     key={i}
-                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium"
+                    className="px-4 py-2 bg-primary/10 text-primary rounded-xl text-sm font-semibold border border-primary/20"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex gap-6 relative z-10">
                 <a
                   href={project.github}
-                  className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors"
+                  className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-all duration-300 font-semibold"
                   aria-label="View GitHub repository"
                 >
-                  <Github size={20} />
-                  <span className="text-sm font-medium">Code</span>
+                  <Github size={22} />
+                  <span>Code</span>
                 </a>
                 {project.live && (
                   <a
                     href={project.live}
-                    className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors"
+                    className="flex items-center gap-2 text-foreground/80 hover:text-primary transition-all duration-300 font-semibold"
                     aria-label="View live project"
                   >
-                    <ExternalLink size={20} />
-                    <span className="text-sm font-medium">Live</span>
+                    <ExternalLink size={22} />
+                    <span>Live</span>
                   </a>
                 )}
               </div>

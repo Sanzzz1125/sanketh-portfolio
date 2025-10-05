@@ -35,26 +35,27 @@ const Skills = () => {
           My expertise across various technologies and tools
         </p>
 
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-3 gap-10">
           {skillCategories.map((category, idx) => (
-            <div key={idx} className="space-y-6">
-              <h3 className="text-2xl font-bold mb-6 gradient-text">
+            <div key={idx} className="bg-card rounded-3xl p-8 space-y-6 border border-border/50" style={{ boxShadow: "var(--shadow-card)" }}>
+              <h3 className="text-3xl font-extrabold mb-8 gradient-text">
                 {category.category}
               </h3>
               {category.skills.map((skill, i) => (
-                <div key={i} className="space-y-2">
+                <div key={i} className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-sm text-muted-foreground">
+                    <span className="font-semibold text-lg">{skill.name}</span>
+                    <span className="text-sm text-primary font-bold px-3 py-1 bg-primary/10 rounded-full">
                       {skill.level}%
                     </span>
                   </div>
-                  <div className="h-3 bg-secondary rounded-full overflow-hidden">
+                  <div className="h-4 bg-secondary/50 rounded-full overflow-hidden backdrop-blur-sm">
                     <div
-                      className="h-full rounded-full transition-all duration-1000"
+                      className="h-full rounded-full transition-all duration-1000 hover-lift"
                       style={{
                         width: `${skill.level}%`,
                         background: "var(--gradient-primary)",
+                        boxShadow: "0 0 20px hsl(var(--primary) / 0.4)",
                       }}
                     ></div>
                   </div>
@@ -64,16 +65,16 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8">
+        <div className="mt-20">
+          <h3 className="text-3xl font-bold text-center mb-10">
             Certifications
           </h3>
           <div className="flex justify-center">
             <div
-              className="inline-block px-6 py-3 bg-card rounded-xl"
-              style={{ boxShadow: "var(--shadow-elegant)" }}
+              className="inline-block px-8 py-5 bg-card rounded-2xl border border-primary/20 hover-lift"
+              style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <p className="font-medium">
+              <p className="font-semibold text-lg gradient-text">
                 C Programming (NPTEL, IIT Kanpur)
               </p>
             </div>
