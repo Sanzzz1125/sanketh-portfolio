@@ -41,7 +41,7 @@ const Hero = () => {
               </a>
               
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Sanzzz1125?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-border rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
@@ -51,7 +51,7 @@ const Hero = () => {
               </a>
               
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/sanketh-thatikonda-428197286/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-border rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
@@ -61,7 +61,7 @@ const Hero = () => {
               </a>
               
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:sanketh.thatikonda@gmail.com"
                 className="p-3 border border-border rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
                 aria-label="Email"
               >
