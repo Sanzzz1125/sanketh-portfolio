@@ -23,7 +23,7 @@ const Resume = () => {
           </p>
 
           <a
-            href="/Sanketh Thatikonda-Resume.pdf"
+            href="/Sanketh_Thatikonda-Resume.pdf"
             download="Sanketh_Thatikonda_Resume.pdf"
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-medium text-lg transition-all duration-300"
             style={{
