@@ -41,7 +41,7 @@ const Hero = () => {
               </a>
               
               <a
-                href="https://github.com/Sanzzz1125?tab=repositories"
+                href="https://github.com/Sanzzz1125"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-border rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
