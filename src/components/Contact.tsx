@@ -12,13 +12,13 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/Sanketh",
-      href: "https://linkedin.com/in/Sanketh",
+      href: "https://www.linkedin.com/in/sanketh-thatikonda-428197286/",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "github.com/Sanketh",
-      href: "https://github.com/Sanketh",
+      href: "https://github.com/Sanzzz1125",
     },
     {
       icon: Phone,
