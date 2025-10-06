@@ -45,4 +45,3 @@ Built using modern web technologies with a focus on performance, simplicity, and
 │ └── utils/ # Helper functions (if any)
 ├── package.json
 └── README.md
-
