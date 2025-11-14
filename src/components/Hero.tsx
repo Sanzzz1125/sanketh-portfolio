@@ -1,5 +1,5 @@
 import { Code2, Zap, Sparkles, Github, Linkedin, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpeg";
+import profilePhoto from "@/assets/profile.jpeg";
 
 const Hero = () => {
   return (
